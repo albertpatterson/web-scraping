@@ -3,7 +3,7 @@ import requests
 from myAnimeList.extractors import body
 from myAnimeList.extractors import sidePanel
 
-url = 'https://myanimelist.net/anime/6811/InuYasha__Kanketsu-hen'
+url = 'https://myanimelist.net/anime/32281/Kimi_no_Na_wa'
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
